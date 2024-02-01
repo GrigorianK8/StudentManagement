@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Teacher</title>
+</head>
+
+<body>
+Add Teacher <br>
+<form method="post" action="/teachers/add" enctype="multipart/form-data">
+    Name: <input type="text" name="name"> <br>
+    Surname: <input type="text" name="surname"> <br>
+    Email: <input type="text" name="email"> <br>
+    <input type="file" name="picture">
+    <input type="submit" value="Add">
+</form>
+</body>
+</html>
